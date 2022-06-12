@@ -1,0 +1,147 @@
+body {
+    background-image: url("../images/background.gif");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 400px;
+background: rgb(231, 243, 3);
+border-radius: 10px;
+}
+.bod h1{
+text-align: center;
+padding: 0 0 20px 0;
+border-bottom: 1px solid silver;
+}
+.bod form{
+padding: 30px 40px;
+box-sizing: border-box;
+}
+.bod p{
+margin-top: 30px;
+}
+form .txt_field{
+position: relative;
+border-bottom: 2px solid #e5ff00;
+margin: 30px 0;
+}
+
+input[type="submit"]{
+width:100%;
+height: 50px;
+border: 1px solid;
+background: #2691d9;
+border-radius: 25px;
+font-size: 23px;
+color: #e9f4fb;
+font-weight: 700;
+cursor: pointer;
+outline:none;
+}
+input[type="submit"]:hover{
+border-color: #2691d9;
+transition: .5s;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/background.jpg);
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+
+}
+.navbar{
+height: 12%;
+display: flex;
+align-items: center;
+}
+.logo{
+width: 150px;
+cursor: pointer;
+}
+nav{
+flex:1;
+text-align:right;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-left:60px;
+}
+nav ul li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 13px;
+}
+nav ul li a:hover{
+color:#0F3;
+}
+nav ul li .active{
+color:#0F3;
+}
+.inner-footer{
+margin: 0;
+padding: 0;
+background-color: #000;
+}
+.social-links{
+display: flex;
+}
+.social-links ul{
+display:flex;
+width: 280px;
+height: 30px;
+margin: auto;
+padding: 10px;
+}
+.social items{
+list-style: none;
+}
+.social-items a{
+padding: 10px 25px;
+font-size: 20px;
+color:#0CF;
+transition: all .25s;
+}
+.social-items a:hover{
+color: #333;
+}
+.quick-links{
+display: flex;
+width: 410px;
+height: 50px;
+margin: auto;
+}
+.quick-links ul{
+display: flex;
+}
+.quick-items{
+list-style: none;
+}
+.quick-items a{
+text-decoration:none;
+padding: 0px 15px;
+font-size: 13px;
+color: #FFF;
+transition: all .25s;
+}
+.quick-items a:hover{
+color:#0CF;
+}
+.outer-footer{
+padding: 10px;
+text-align: center;
+color: white;
+font-size: 13px;
+background-color:#333;
+}

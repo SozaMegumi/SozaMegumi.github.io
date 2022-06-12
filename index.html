@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AniGame | Soza Megumi Profile</title>
+    <link rel="icon" type="image/x-icon " href="icon.png ">
+<style>
+body
+{
+    margin: 0;
+    background-color: black;
+    background-image: url("background.gif");
+}
+/* navi bar */
+nav
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li
+{
+    float: left;
+}
+li a
+{
+	display: block;
+    text-decoration: none;
+	color: white;
+    text-align: center;
+    padding: 20px 40px;
+}
+li a:hover:not(.active)
+{
+	color: #0F3;
+}
+.active{
+	color: #0F3;
+}
+
+/* image */
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.gallery {
+  margin: 50px;
+  border: 3px solid white;
+  float: left;
+  width: 300px;
+  margin-top: 20px;
+  display: block;
+}
+div.gallery:hover {
+  border: 3px solid #0F3;
+}
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <li><a class = "active" href = 'main.html'>Main</a></li>
+    <li><a href = 'anime.html'>Anime</a></li>
+    <li><a href = 'game.html'>Game</a></li>
+    <li><a href = 'about me.html'>About Me</a></li>
+    <li><a href = 'login.html'>login</a></li>
+
+   
+</nav>
+<img src="hello.png" alt="Hello" style="width:20%;">
+<img src="welcome.gif" alt="Hello" style="width:20%;">
+
+<div class="gallery">
+    <a target="_blank" href="anime.html">
+    <img src="main.gif" alt="Anime" width="600" height="400">
+    </a>
+    <div class="desc">Anime >_< </div>
+</div>
+<div class="gallery">
+    <a target="_blank" href="game.html">
+    <img src="game.gif" alt="game" width="600" height="400">
+    </a>
+    <div class="desc">Game 0_0 </div>
+</div>
+<div class="gallery">
+    <a target="_blank" href="about me.html">
+    <img src="about me.gif" alt="Horimiya" width="600" height="400">
+    </a>
+    <div class="desc">About Me OwO</div>
+</div>
+<div class="gallery">
+    <a target="_blank" href="login.html">
+    <img src="login.gif" alt="Kawai" width="600" height="400">
+    </a>
+    <div class="desc">login ^x^ </div>
+</div>
+</body>
+</html>

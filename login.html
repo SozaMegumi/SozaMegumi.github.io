@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	font-family:'Roboto', sans-serif;
+
+
+}
+.bod{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
+}
+.bod h1{
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+.bod form{
+	padding: 30px 40px;
+	box-sizing: border-box;
+}
+.bod p{
+	margin-top: 30px;
+}
+form .txt_field{
+	position: relative;
+	border-bottom: 2px solid #adadad;
+	margin: 30px 0;
+}
+.txt_field input{
+	width: 100%;
+	padding: 0 5px;<br>
+	height: 40px;
+	font-size: 16px;
+	border:none;
+	background: none;
+	outline: none;
+}
+input[type="submit"]{
+	width:100%;
+	height: 50px;
+	border: 1px solid;
+	background: #2691d9;
+	border-radius: 25px;
+	font-size: 18px;
+	color: #e9f4fb;
+	font-weight: 700;
+	cursor: pointer;
+	outline:none;
+}
+input[type="submit"]:hover{
+	border-color: #2691d9;
+	transition: .5s;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	
+}
+/* navi bar */
+nav
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li
+{
+    float: left;
+}
+li a
+{
+	display: block;
+    text-decoration: none;
+	color: white;
+    text-align: center;
+    padding: 20px 40px;
+}
+li a:hover:not(.active)
+{
+	color: #0F3;
+}
+.active{
+	color: #0F3;
+}
+
+.inner-footer{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+.social-links{
+	display: flex;
+}
+.social-links ul{
+	display:flex;
+	width: 280px;
+	height: 30px;
+	margin: auto;
+	padding: 10px;
+}
+.social items{
+	list-style: none;
+}
+.social-items a{
+	padding: 10px 25px;
+	font-size: 20px;
+	color:#0CF;
+	transition: all .25s;
+}
+.social-items a:hover{
+	color: #333;
+}
+.quick-links{
+	display: flex;
+	width: 410px;
+	height: 50px;
+	margin: auto;
+}
+.quick-links ul{
+	display: flex;
+}
+.quick-items{
+	list-style: none;
+}
+.quick-items a{
+	text-decoration:none;
+	padding: 0px 15px;
+	font-size: 13px;
+	color: #FFF;
+	transition: all .25s;
+}
+.quick-items a:hover{
+	color:#0CF;
+}
+.outer-footer{
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	background-color:#333;
+}
+
+
+</style>
+
+
+<body>
+<div class="container">
+		<div class="navbar">
+       		<nav>
+    			<ul>
+					<li><a class = "active" href = 'index.html'>Main</a></li>
+   					<li><a href = 'anime.html'>Anime</a></li>
+  					<li><a href = 'game.html'>Game</a></li>
+    				<li><a href = 'about me.html'>About Me</a></li>
+    				<li><a href = 'login.html'>login</a></li>
+
+				</ul>
+			</nav>
+		</div>
+
+	<div class="bod">
+		<form class="login-email">
+			<h1>Login</h1>
+    		<div class="txt_field">
+   	 			<input type="email" placeholder="Email" required>
+            </div>
+            <div class="txt_field">
+        		<input type="password" placeholder="Password" required>
+            </div>
+            <input type="submit" value="Login">
+            <p>Don't have an account? <a href="https://youtu.be/o-YBDTqX_ZU">Register here</a>
+		</form>
+	</div>
+    
+    
+    
+    
+</div>
+<footer class="footer">
+	<div class="inner-footer">
+    	<div class="social-links">
+        	<ul>
+        		<li class="social-items"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            	<li class="social-items"><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+            	<li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li> 
+            	<li class="social-items"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+    		</ul>
+    	</div>
+        
+    </div>
+	
+    <div class="outer-footer">
+    </div>
+
+</footer>
+
+</body>
+</html>
